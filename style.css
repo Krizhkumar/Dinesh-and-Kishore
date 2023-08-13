@@ -1,0 +1,39 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+/* Container styles */
+.container {
+    max-width: 12px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Gallery styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+    grid-gap: 2px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
