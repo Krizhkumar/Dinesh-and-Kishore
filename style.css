@@ -36,7 +36,7 @@ body {
 h1::first-letter {
     position: relative;
     font-size: 120px;
-    color: rgb(6, 235, 235);
+    color: rgba(240, 198, 82, 0.904);
    
 }
 h1 {
