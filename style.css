@@ -7,33 +7,74 @@ body, h1 {
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    font-family:"Audiowide", sans-serif;
+    font-size: 1-px;
+    
 }
 
-/* Header styles */
-header {
-    background-color: #35424a;
+
+.background {
+    margin: 0;
+    padding: 0;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.row {
+        display: flex;
+        height: 88vh;
+        align-items: center;
+}
+
+.col {
+    
+    flex-basis: 50px;
+}
+
+h1::first-letter {
+    position: relative;
+    font-size: 120px;
+    color: rgb(6, 235, 235);
+   
+}
+h1 {
+    padding: 5%;
+    position: relative;
+    font-size: 80px;
+    color: rgb(207, 233, 233);
+   
+}
+
+h2{
+    font-style: oblique;
+    padding-left: 30px;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-style: oblique;
+    padding-left: 30px;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 13px;
+}
+
+.footer {
+    
+    display: flex;
+    bottom: 2px;
+    right: 2px;
     color: white;
-    text-align: center;
-    padding: 3px;
-}
-
-/* Container styles */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Gallery styles */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
-    grid-gap: 2px;
-}
-
-.gallery img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding-left: 550px;
+    padding-right: 300px;
+    background-color: rgb(101, 110, 107);
+    
+  
 }
