@@ -25,13 +25,13 @@ header {
 }
 
 /* Gallery styles */
-.gallery {
+.gallery1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
     grid-gap: 2px;
 }
 
-.gallery img {
+.gallery1 img {
     max-width: 100%;
     height: auto;
     border: 1px solid #ddd;
