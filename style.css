@@ -16,7 +16,7 @@ body {
 .background {
    
     background-image: url(./IMG_9427.jpg);
-    background-size: 100%   ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -27,49 +27,49 @@ body {
 
 .row {
     display: flex;
-    height: 100vh;
+    height: 88vh;
     align-items: center;
 }
 
 .col {
 
-flex-basis: 100px;
+flex-basis: 50px;
 }
 
 
 h1::first-letter {
     position: relative;
-    font-size: 140px;
-    color: rgb(243, 194, 60);
+    font-size: 120px;
+    color: rgba(240, 198, 82, 0.904);
    
 }
 h1 {
     padding: 5%;
     position: relative;
-    font-size: 75px;
-    color: rgb(255, 253, 253);
+    font-size: 65px;
+    color: rgb(255, 255, 255);
    
 }
 
 h2{
     font-style: oblique;
-    padding-left: 50px;
+    padding-left: 30px;
     font-size: 20px;
-    font-stretch: expanded;
+    font-stretch: extra-condensed;
     color: rgb(255, 255, 255);
 }
 
 
 h3::first-letter {
     position: relative;
-    font-size: 140px;
-    color: rgb(243, 194, 60);
+    font-size: 120px;
+    color: rgba(240, 198, 82, 0.904);
    
 }
 h3 {
     padding: 5%;
     position: relative;
-    font-size: 75px;
+    font-size: 65px;
     color: rgb(0, 0, 0);
    
 }
@@ -100,7 +100,7 @@ button {
     max-width: 100%;
     height: auto;
     border: 5px solid #e4e9e9;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
@@ -114,8 +114,8 @@ button {
 
     max-width: 100%;
     height: auto;
-    border: 5px solid #ffffff;
-    border-radius: 5px;
+    border: 5px solid #e4e9e9;
+    border-radius: 10px;
 }
 
 
@@ -129,6 +129,20 @@ button {
 
     max-width: 100%;
     height: auto;
-    border: 5px solid #ffffff;
-    border-radius: 5px;
+    border: 5px solid #e4e9e9;
+    border-radius: 10px;
+}
+
+.gallery3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery3 img {
+
+    max-width: 100%;
+    height: 100vh;
+    border: 5px solid #e4e9e9;
+    border-radius: 10px;
 }
