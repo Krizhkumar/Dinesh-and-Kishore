@@ -14,9 +14,10 @@ body {
 
 
 .background {
-   
+    margin: 0%;
+    padding: 0%;
     background-image: url(./IMG_9427.jpg);
-    background-size: 10%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment: fixed;
