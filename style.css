@@ -14,24 +14,28 @@ body {
 
 
 .background {
-    margin: 0;
-    padding: 0;
-    background-image: url(./background.jpg);
-    background-size: cover;
+   
+    background-image: url(./IMG_9427.jpg);
+    background-size: 100%   ;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     height: 100vh;
+   
 }
 
+
 .row {
-        display: flex;
-        height: 88vh;
-        align-items: center;
+    display: flex;
+    height: 88vh;
+    align-items: center;
 }
 
 .col {
-    
-    flex-basis: 50px;
+
+flex-basis: 50px;
 }
+
 
 h1::first-letter {
     position: relative;
@@ -43,7 +47,7 @@ h1 {
     padding: 5%;
     position: relative;
     font-size: 80px;
-    color: rgb(207, 233, 233);
+    color: rgb(45, 53, 53);
    
 }
 
@@ -69,49 +73,47 @@ button {
     margin-top: 30px;
 }
 
-.card1 {
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius:  10px;
-    padding: 15px  25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 150px;
-    background-image: url(./IMG_9427.jpg);
-    background-position: right;
-    background-size: cover;
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+   
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #e4e9e9;
+    border-radius: 5px;
 }
 
 
-.card2 {
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius:  10px;
-    padding: 15px  25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 150px;
-    background-image: url(./IMG_9485.jpg);
-    background-position: right;
-    background-size: cover;
+.gallery1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery1 img {
+
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
 }
 
 
-p{
-    font-size: 13px;
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
 }
 
-.footer {
-    
-    display: flex;
-    bottom: 2px;
-    right: 2px;
-    color: white;
-    padding-left: 550px;
-    padding-right: 300px;
-    background-color: rgb(101, 110, 107);
-    
-  
+.gallery2 img {
+
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
 }
