@@ -13,17 +13,7 @@ body {
 }
 
 
-.background {
-    margin: 0%;
-    padding: 0%;
-    background-image: url(./IMG_9427.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-attachment: fixed;
-    height: 100vh;
-   
-}
+
 
 
 .row {
@@ -48,7 +38,7 @@ h1 {
     padding: 5%;
     position: relative;
     font-size: 65px;
-    color: rgb(255, 255, 255);
+    color: rgb(22, 16, 16);
    
 }
 
@@ -57,7 +47,7 @@ h2{
     padding-left: 30px;
     font-size: 20px;
     font-stretch: extra-condensed;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 2, 2);
 }
 
 
@@ -82,7 +72,7 @@ button {
     color: rgb(0, 0, 0);
     font-size: 12px;
     padding: 12px 0;
-    background: #fff;
+    background: #e4c82d;
     border: 0;
     border-radius: 20px;
     outline: none;
