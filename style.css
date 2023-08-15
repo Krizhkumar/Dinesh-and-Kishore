@@ -16,7 +16,7 @@ body {
 .background {
    
     background-image: url(./IMG_9427.jpg);
-    background-size: 100% ;
+    background-size: 10%;
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment: fixed;
